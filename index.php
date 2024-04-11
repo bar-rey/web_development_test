@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -67,7 +68,7 @@
         </div>
         <div class="mb-2 form-control">
           <label for="depoTerm" class="text-black mr-6 form-label">Срок вклада</label>
-          <select type="number" name="depoTerm" id="depoTerm" class="text-black p-1 form-field">
+          <select name="depoTerm" id="depoTerm" class="text-black p-1 form-field">
             <option value="1">1 год</option>
             <option value="2">2 год</option>
             <option value="3">3 год</option>
@@ -76,15 +77,15 @@
           </select>
         </div>
         <div class="mb-2 form-control">
-          <label for="depoAddition" class="text-black mr-6 form-label">Пополнение вклада</label>
-          <fieldset class="form-field" name="depoAddition">
+          <label class="text-black mr-6 form-label">Пополнение вклада</label>
+          <fieldset class="form-field">
             <span class="mr-4" style="float: left;">
               <input type="radio" name="depoAddition" class="text-black p-1" value="no" checked>
-              <label for="depoAdditionNo" class="text-black">Нет</label>
+              <label class="text-black">Нет</label>
             </span>
             <span style="float: left;">
               <input type="radio" name="depoAddition" class="text-black p-1" value="yes">
-              <label for="depoAdditionYes" class="text-black">Да</label>
+              <label class="text-black">Да</label>
             </span>
           </fieldset>
         </div>
